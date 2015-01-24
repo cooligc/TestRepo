@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+         <!-- XML Schema Generated from XML Document on Sat Dec 13 2014 21:58:49 GMT-0800 (Pacific Standard Time) -->
+         <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+         <xs:element name="request">
+               <xs:complexType>
+                     <xs:sequence>
+                           <xs:element name="customer">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="name"></xs:element>
+                                             <xs:element name="addressLine1"></xs:element>
+                                             <xs:element name="addressLine2"></xs:element>
+                                             <xs:element name="dist"></xs:element>
+                                             <xs:element name="state"></xs:element>
+                                             <xs:element name="phone"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="diesease">
+                                 <xs:complexType>
+                                       <xs:sequence>
+                                             <xs:element name="symptome"></xs:element>
+                                       </xs:sequence>
+                                 </xs:complexType>
+                           </xs:element>
+                           <xs:element name="slat-timings"></xs:element>
+                     </xs:sequence>
+               </xs:complexType>
+         </xs:element>
+   </xs:schema>
